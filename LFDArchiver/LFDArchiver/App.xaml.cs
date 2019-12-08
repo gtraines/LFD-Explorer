@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.Reflection;
-using System.Waf.Foundation;
 using System.Windows;
 using LfdArchiver.Applications.Controllers;
 

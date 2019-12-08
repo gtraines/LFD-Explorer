@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.IO;
 using System.Linq;
-using System.Waf.Applications;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
