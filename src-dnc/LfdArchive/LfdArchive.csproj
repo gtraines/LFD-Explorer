@@ -1,5 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
+  <ItemGroup>
+    <ProjectReference Include="..\System.Waf\System.Waf.Core\System.Waf.Core.csproj" />
+    <ProjectReference Include="..\System.Waf\System.Waf.Wpf\System.Waf.Wpf.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="4.7.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>

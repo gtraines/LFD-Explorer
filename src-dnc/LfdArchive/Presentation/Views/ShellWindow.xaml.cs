@@ -4,11 +4,13 @@ using System.ComponentModel.Composition;
 using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Waf.Applications;
 using System.Windows.Controls;
 using System.Windows.Input;
 using LfdArchive.Applications.ViewModels;
 using LfdArchive.Applications.Views;
 using LfdArchive.Domain;
+
 
 namespace LfdArchive.Presentation.Views
 {
